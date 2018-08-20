@@ -20,8 +20,6 @@
     
     video.controls = false;
     
-    
-    
     const showControls = e => {
         clearTimeout(controlsTimeout); 
         videoControls[0].style.transform = "translateY(0)"
@@ -34,6 +32,9 @@
     };
     
     const showSubtitles = () => {
+        if(!subtitles) {
+            return;
+        }
         let currentSubtitle = null;
         
         subtitlesCheckInterval = setInterval(()=>{

@@ -6,44 +6,31 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     </head>
     <body>
-        
-            <div class="video-container">
-                <video src="http://r.dcs.redcdn.pl/http/o2/atendesoftware/portal/video/atendesoftware/atendesoftware2.mp4"
-                    
-                >
-                    Sorry, your browser doesn't support embedded videos.
-                </video>
-            
-                <div class="controls">
-                    <div id="playBtn" class="controls-button">
-                        <i class="fas fa-play"></i>
-                    </div>
-                
-                    <input type="range" id="seek-bar" value="0">
-                
-                    <div id="muteBtn" class="controls-button mute-button">
-                        <i class="fas fa-volume-up"></i>
-                    </div>
-                
-                    <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
-                
-                    <div id="subtitleBtn" class="controls-button subtitle-button" >
-                        <i class="fas fa-equals"></i>
-                    </div>
-                    
-                    <div id="fullscreenBtn" class="controls-button fullscreen-button" >
-                        <i class="fas fa-expand-arrows-alt"></i>
-                    </div>
+        <div class="video-container">
+            <video src="http://r.dcs.redcdn.pl/http/o2/atendesoftware/portal/video/atendesoftware/atendesoftware2.mp4"    
+            >
+                  Sorry, your browser doesn't support embedded videos.
+            </video>
+            <div class="controls">
+                <div id="playBtn" class="controls-button">
+                    <i class="fas fa-play"></i>
                 </div>
-                
-                <div id="subtitleContainer" class="subtitle-container">
-                    <p class="subtitle"></p>
+                <input type="range" id="seek-bar" value="0">
+                <div id="muteBtn" class="controls-button mute-button">
+                   <i class="fas fa-volume-up"></i>
                 </div>
-            
+                <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+                <div id="subtitleBtn" class="controls-button subtitle-button" >
+                   <i class="fas fa-equals"></i>
+                </div>
+                <div id="fullscreenBtn" class="controls-button fullscreen-button" >
+                   <i class="fas fa-expand-arrows-alt"></i>
+                </div>
             </div>
-        
-        
-        
+            <div id="subtitleContainer" class="subtitle-container">
+               <p class="subtitle"></p>
+            </div>
+            </div>
         <script src="script.js"></script>
     </body>
 </html>
